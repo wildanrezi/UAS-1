@@ -12,7 +12,7 @@ package Nomor1;
 public class TumpukanApp {
     public static void main(String args[]){
         Tumpukan tumpukan = new Tumpukan (10);
-        tumpukan.push(1);
+        tumpukan.push(100);
         tumpukan.baca();
         tumpukan.push(2);
         tumpukan.baca();
