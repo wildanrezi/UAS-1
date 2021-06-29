@@ -12,7 +12,7 @@ package Nomor2;
 public class AntrianApp {
     public static void main(String args []){
         Antrian antrian = new Antrian (10);
-        antrian.enqueue(7);
+        antrian.enqueue(100);
         antrian.display();
         antrian.enqueue(8);
         antrian.display();
